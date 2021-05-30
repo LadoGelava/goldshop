@@ -1,3 +1,7 @@
+
+
+
+
 //burger toggle click
 function myFunction(x) {
     x.classList.toggle("change");
@@ -37,3 +41,5 @@ function myFunction(x) {
       chevronWoman.classList.add('fa-chevron-up');
     }
    }
+
+ 

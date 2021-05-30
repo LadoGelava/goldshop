@@ -5,14 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <meta name="description" content="ოქროს სამკაულებისა და ნივთების მაღაზია">
-    <link rel="canonical" href="http://golds.ge/" />
 
-    <meta property="og:type" content="ოქროს ნივთების მაღაზია" />
+    <meta property="og:type" content="ოქროს ნივთების მაღაზია"/>
 
-    <meta property="og:title" content="მერის ნივთები - ოქროს ნივთების მაღაზია" />
+    <meta property="og:title" content="ოქროს ბრასლეტები" />
 
-    <meta property="og:description" content="ოქროს ნივთების ყიდვა" />
+    <meta property="og:description" content="ქალისა და კაცის ოქროს სამაჯურებისა და ბრასლეტების ყიდვა" />
 
     <link rel="shortcut icon" href="favico.png" />
 
@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
     <!-- CSS -->
     <link rel="stylesheet" href="mystyle.css">
-    <title>მერის ნივთები - ოქროს ნივთების მაღაზია</title>
+    <title>ოქროს ბრასლეტები</title>
   </head>
-  <body class="body">
+  <body>
     <header class="header-mobile">
       <nav class="navbar navbar-expand-lg">
         <div class="burger" onclick="myFunction(this)">
@@ -36,7 +36,7 @@
       </nav>
       <div id="hiddenMenu">
         <form class="d-flex searchForm">
-          <input id="filterInput" class="form-control me-2" type="search" placeholder="მოძებნე ნივთი..." aria-label="Search">
+          <input id="filterInput" class="form-control me-2 filterInput" type="search" placeholder="მოძებნე ნივთი..." aria-label="Search">
           <button class="btn btn-search" type="submit">ძიება</button>
         </form>
         <a href="index.html" class="btn btn-block">მთავარი</a>
@@ -46,10 +46,9 @@
         <a href="earings.html" class="btn btn-block">საყურეები</a>
         <a href="watches.html" class="btn btn-block">საათები</a>
         <a href="chain.html" class="btn btn-block">ცეპები</a>
-        <a href="pendants.html" class="btn btn-block">ცეპები</a>
+        <a href="pendants.html" class="btn btn-block">კულონები</a>
       </div>
     </header>
-
     <div class="hero-content">
       <section>
         <h2><strong>ოქროს სამკაულების მაღაზია</strong></h2>
@@ -60,7 +59,7 @@
         <div class="filter">
           <div class="mb-3">
             <label for="Select" class="form-label">ფასის ფილტრი</label>
-            <select id="Select" class="form-select selectMain">
+            <select id="Select" class="form-select selectWmBrc select">
               <option selected disabled>აირჩიეთ</option>
               <option>ყველა</option>
               <option>1₾ - 300₾</option>
@@ -72,15 +71,14 @@
               <option>2000₾+</option>
             </select>
           </div>
-    </div>
+        </div>
       </section> 
     </div>
-   
     <section class="productsSection">
-      <h4>ბოლოს დამატებულები</h4>
-     
+      <h4>ოქროს სამაჯურები</h4>
+      
       <div class="productsOuterDiv" id="productsOuterDiv">
-        <!-- <div class="productDiv">
+        <div class="productDiv">
           <div class="imgDiv">
             <img src="img/bannerMain.png" alt="">
            </div>
@@ -90,41 +88,11 @@
           <p><strong>ფასი:</strong> 400 ლარი</p>
           <button class="btn btn-details">დეტალურად</button>
         </div>
-        <div class="productDiv">
-          <img src="img/7.jpg" alt="">
-          <h6><strong>იტალიური ქარხნული ბეჭედი</strong></h6>
-          <p><strong>წონა:</strong> 3გრამი</p>
-          <p><strong>სინჯი(პრობი):</strong> 583</p>
-          <p><strong>ფასი:</strong> 400 ლარი</p>
-          <button class="btn btn-details">დეტალურად</button>
-        </div>
-        <div class="productDiv">
-          <img src="img/5.jpg" alt="">
-          <h6><strong>იტალიური ქარხნული ბეჭედი</strong></h6>
-          <p><strong>წონა:</strong> 3გრამი</p>
-          <p><strong>სინჯი(პრობი):</strong> 583</p>
-          <p><strong>ფასი:</strong> 400 ლარი</p>
-          <button class="btn btn-details">დეტალურად</button>
-        </div>
-        <div class="productDiv">
-          <img src="img/8-1.jpg" alt="">
-          <h6><strong>იტალიური ქარხნული ბეჭედი</strong></h6>
-          <p><strong>წონა:</strong> 3გრამი</p>
-          <p><strong>სინჯი(პრობი):</strong> 583</p>
-          <p><strong>ფასი:</strong> 400 ლარი</p>
-          <button class="btn btn-details">დეტალურად</button>
-        </div> -->
       </div>
     </section>
-
-    
-     <!-- Products Details Page Murkup -->
     <div class="productInner">
       
     </div>
-    
-
-      
      <footer>
        <section>
         <div class="adressDiv">
@@ -138,20 +106,16 @@
         </div>
         <h3>© მერის ნივთები - ოქროს სამკაულების მაღაზია</h3>
        </section>
-       <!-- <section class="adsFlatSection">
-        <div class="flat">
-          <img src="img/addFlat.jpg">
-        </div>
-      </section> -->
      </footer>
     <!-- Hero Content -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="htt+ps://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
      
-    <script src="products.js"></script>
+    
+    <script src="mBracelet.js"></script>
     <script src="myscript.js"></script>
   </body>
 </html>
