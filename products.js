@@ -69,7 +69,7 @@
   },
   {
     id: 23,
-    title: 'ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით+',
+    title: 'ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით',
     prob: 585,
     weight: 9.9,
     price: 1500,
@@ -160,7 +160,7 @@
   },
   {
     id: 16,
-    title: 'ბრილიანტის საყურეები+',
+    title: 'ბრილიანტის საყურეები',
     prob: 585,
     weight: 4.5,
     price: 1000,
@@ -186,7 +186,7 @@
   },
   {
     id: 14,
-    title: 'იტალიური ქარხნული მსხლები+',
+    title: 'იტალიური ქარხნული მსხლები',
     prob: 585,
     weight: 10,
     price: 1600,
@@ -238,7 +238,7 @@
   },
   {
     id: 10,
-    title: 'იტალიური ქარხნული ცეპი+',
+    title: 'იტალიური ქარხნული ცეპი',
     prob: 585,
     weight: 7.06,
     price: 1100,
@@ -251,7 +251,7 @@
   },
   {
     id: 9,
-    title: 'ძველი ქარხნული ცეპი+',
+    title: 'ძველი ქარხნული ცეპი',
     prob: 583,
     weight: 12,
     price: 1800,
@@ -362,8 +362,8 @@
     prob: 583,
     weight: 19.74,
     price: 2100,
-    img1: 'img/watchWm1.jpg',
-    img2: 'img/watchWm.jpg',
+    img1: 'https://www.dropbox.com/s/a1farva0x5jgvlu/watchWm1.jpg?raw=1',
+    img2: 'ss',
     category: 'watch',
     gender: 'woman',
     sold: false,
@@ -586,7 +586,7 @@ productsOuterDiv.innerHTML = result8.join('');
   let productInner = document.querySelector('.productInner');
     productInner.innerHTML= `<div class="container">
     <div class="row">
-      <div class="col-md-4">+
+      <div class="col-md-4">
         <section>
             <h6><strong>${products[products.length-id].title}</strong></h6>
             <p class="priceInDetails">${products[products.length-id].price} ლარად</p>
@@ -596,7 +596,7 @@ productsOuterDiv.innerHTML = result8.join('');
         </section>
       </div>
       <div class="col-md-8">
-          <img src="${products[products.length-id].img1}" alt="${products[products.length-id].title}+">
+          <img src="${products[products.length-id].img1}" alt="${products[products.length-id].title}">
           <img style="margin-top: 20px" src="${products[products.length-id].img2}">
       </div>
     </div>

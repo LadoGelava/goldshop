@@ -69,7 +69,7 @@
   },
   {
     id: 23,
-    title: 'ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით+',
+    title: 'ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით',
     prob: 585,
     weight: 9.9,
     price: 1500,
@@ -160,7 +160,7 @@
   },
   {
     id: 16,
-    title: 'ბრილიანტის საყურეები+',
+    title: 'ბრილიანტის საყურეები',
     prob: 585,
     weight: 4.5,
     price: 1000,
@@ -186,7 +186,7 @@
   },
   {
     id: 14,
-    title: 'იტალიური ქარხნული მსხლები+',
+    title: 'იტალიური ქარხნული მსხლები',
     prob: 585,
     weight: 10,
     price: 1600,
@@ -238,7 +238,7 @@
   },
   {
     id: 10,
-    title: 'იტალიური ქარხნული ცეპი+',
+    title: 'იტალიური ქარხნული ცეპი',
     prob: 585,
     weight: 7.06,
     price: 1100,
@@ -251,7 +251,7 @@
   },
   {
     id: 9,
-    title: 'ძველი ქარხნული ცეპი+',
+    title: 'ძველი ქარხნული ცეპი',
     prob: 583,
     weight: 12,
     price: 1800,
@@ -467,7 +467,7 @@
    <p><strong>წონა:</strong> ${product.weight} გრამი</p>
    <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
    <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-   <button class='btn btn-details' onclick='onDetailsClick(${product.id})'+>დეტალურად</button>
+   <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result1.join('');
   }else if(select.value === '301₾ - 500₾'){
